@@ -96,8 +96,22 @@ class SortingRobot:
         """
         Sort the robot's list.
         """
-        # Fill this out
-        pass
+        # have to have at least two variables to be able to sort
+        if len(self._list) <= 0:
+            return 0
+        # move figure
+        while self.can_move_right():
+            #Now we have something to compare in our list
+            self.swap_item()
+            self.move_right()
+
+            #if the robots item is greater than the compare item
+        if self.compare_item ==1:
+            ## swap out
+            self.swap_item()
+            ## move to the left to swap out
+            self.move_left()
+            
 ##psuedocode
 ## I think we will use selection sort for this problem. 
 ##the robot should start in the 0 position and return from there 
@@ -108,16 +122,7 @@ class SortingRobot:
 ## if the light is on, we can store the cards in memory?
 ##
 ##
-##
-##
-##
-##
-##
-##
-##
-##
-##
-##
+
 
 
 if __name__ == "__main__":
