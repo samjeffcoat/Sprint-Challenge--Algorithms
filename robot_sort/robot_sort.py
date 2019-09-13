@@ -98,6 +98,25 @@ class SortingRobot:
         """
         # Fill this out
         pass
+##psuedocode
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
 
 
 if __name__ == "__main__":
