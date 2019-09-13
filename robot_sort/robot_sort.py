@@ -99,12 +99,13 @@ class SortingRobot:
         # Fill this out
         pass
 ##psuedocode
-##
-##
-##
-##
-##
-##
+## I think we will use selection sort for this problem. 
+##the robot should start in the 0 position and return from there 
+##picks up the first card, and then compares it to second card and so on
+## could have it move the card until its less than the card in front of it, but that would take too many steps i think
+## Could move left if the card is smaller based on the comparison
+## Could the card be swapped out right away to decrease run time?
+## if the light is on, we can store the cards in memory?
 ##
 ##
 ##
