@@ -8,7 +8,7 @@ a) Linear Time- O(n). As n increases, our run time will increase. As n decreases
 b)O(n^3). There are 3 operations being performed in this equation. We are establishing j in the first loop, multiplying j by 2, then we are also incrementing sum within the last loop. This is a inefficient program. 
 
 
-c)
+c) O(n). This code will run exactly n amount of times. Our return relies on bunnies-1. Runtime will then be dependent on n. 
 
 ## Exercise II
 
